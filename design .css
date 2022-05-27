@@ -1,0 +1,103 @@
+.container{
+	width:800px;
+	height: 840px;
+	margin: 100px;
+	background-color:gray;
+	display: flex;
+  justify-content: center;
+} 
+.lhs{
+	width:250px;
+	height: 840px;
+	background-color: darkblue;
+	float: left;
+	padding-left: 10px 
+}
+.rhs{
+	width:500px;
+	height: 840px;
+	background-color: green;
+	float: left;
+	padding-left: 10px 
+}
+h1{ 
+	background-color: yellow;
+	font-size: 25px;
+	color: tomato
+}
+img{
+	padding-top: 35px;
+	padding-left: 35px 
+
+}
+nav {
+
+  display: flex;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+  min-height: 8vh;
+
+  background-color: teal;
+
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.heading {
+
+  color: white;
+
+  text-transform: uppercase;
+
+  letter-spacing: 5px;
+
+  font-size: 20px;
+
+}
+
+.nav-links {
+
+  display: flex;
+
+  justify-content: space-around;
+
+  width: 30%;
+
+}
+
+.nav-links li {
+
+  list-style: none;
+
+}
+
+.nav-links a {
+
+  color: white;
+
+  text-decoration: none;
+
+  letter-spacing: 3px;
+
+  font-weight: bold;
+
+  font-size: 14px;
+
+  padding: 14px 16px;
+
+}
+
+.nav-links a:hover:not(.active) {
+
+  background-color: lightseagreen;
+
+}
+
+.nav-links li a.active {
+
+  background-color: #4caf50;
+
+}
